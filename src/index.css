@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'ShopifySans-Black';
+  src: local('ShopifySans-Black'), url(./assets/fonts/ShopifySans/ShopifySans-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'ShopifySans-Bold';
+  src: local('AirbnbCerealBold'), url(./assets/fonts/ShopifySans/ShopifySans-Bold.ttf) format('truetype');
+}
+
+@font-face{
+  font-family: 'ShopifySans-Medium';
+  src: local('ShopifySans-Medium'), url(./assets/fonts/ShopifySans/ShopifySans-Medium.ttf) format('truetype');
+}
+
+@font-face{
+  font-family: 'ShopifySans-Regular';
+  src: local('ShopifySans-Regular'), url(./assets/fonts/ShopifySans/ShopifySans-Regular.ttf) format('truetype');
+}

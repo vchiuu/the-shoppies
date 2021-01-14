@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="437" height="478" viewBox="0 0 437 478">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="437" height="478" transform="translate(1275 602)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-1275 -602)" clip-path="url(#clip-path)">
+    <g id="Group_19" data-name="Group 19" transform="translate(743.052 408.61)">
+      <path id="Path_36" data-name="Path 36" d="M689.072,714l61.044-209.831-28.06-8.163L658.637,714Z" fill="#4d4d4d"/>
+      <path id="Path_37" data-name="Path 37" d="M831.3,714,795.209,502.706l-27.6,4.714L802.89,714Z" fill="#4d4d4d"/>
+      <path id="Path_40" data-name="Path 40" d="M25.2,0H134.041a25.2,25.2,0,0,1,25.2,25.2V64.8a25.2,25.2,0,0,1-25.2,25.2H25.2A25.2,25.2,0,0,1,0,64.8V25.2A25.2,25.2,0,0,1,25.2,0Z" transform="translate(689.634 477.107) rotate(8.999)" fill="#4d4d4d"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="256.547" height="158.308" rx="46.4" transform="translate(651.463 372.06) rotate(8.999)" fill="#999"/>
+      <g id="Group_17" data-name="Group 17">
+        <line id="Line_1" data-name="Line 1" y2="0.83" transform="translate(726.639 179.39)" fill="none"/>
+        <circle id="Ellipse_5" data-name="Ellipse 5" cx="87.636" cy="87.636" r="87.636" transform="translate(647 222.528)" fill="#999" stroke="#7a7a7a" stroke-miterlimit="10" stroke-width="5"/>
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="22.813" cy="22.813" r="22.813" transform="translate(711.706 235.801)" fill="#4d4d4d"/>
+        <circle id="Ellipse_7" data-name="Ellipse 7" cx="22.813" cy="22.813" r="22.813" transform="translate(759.821 269.813)" fill="#4d4d4d"/>
+        <circle id="Ellipse_8" data-name="Ellipse 8" cx="22.813" cy="22.813" r="22.813" transform="translate(741.571 326.224)" fill="#4d4d4d"/>
+        <circle id="Ellipse_9" data-name="Ellipse 9" cx="22.813" cy="22.813" r="22.813" transform="translate(682.671 326.224)" fill="#4d4d4d"/>
+        <circle id="Ellipse_10" data-name="Ellipse 10" cx="22.813" cy="22.813" r="22.813" transform="translate(664.421 269.813)" fill="#4d4d4d"/>
+        <circle id="Ellipse_11" data-name="Ellipse 11" cx="9.125" cy="9.125" r="9.125" transform="translate(724.979 298.848)" fill="#fff"/>
+      </g>
+      <g id="Group_18" data-name="Group 18" transform="translate(3 20)">
+        <line id="Line_2" data-name="Line 2" y2="0.691" transform="translate(877.446 224.06)" fill="none"/>
+        <path id="Path_39" data-name="Path 39" d="M72.571,0A72.571,72.571,0,1,1,0,72.571,72.571,72.571,0,0,1,72.571,0Z" transform="translate(811.096 260)" fill="#999" stroke="#7a7a7a" stroke-width="5"/>
+        <circle id="Ellipse_13" data-name="Ellipse 13" cx="19.007" cy="19.007" r="19.007" transform="translate(865.005 271.058)" fill="#4d4d4d"/>
+        <circle id="Ellipse_14" data-name="Ellipse 14" cx="19.007" cy="19.007" r="19.007" transform="translate(905.092 299.395)" fill="#4d4d4d"/>
+        <circle id="Ellipse_15" data-name="Ellipse 15" cx="19.007" cy="19.007" r="19.007" transform="translate(889.887 346.394)" fill="#4d4d4d"/>
+        <circle id="Ellipse_16" data-name="Ellipse 16" cx="19.007" cy="19.007" r="19.007" transform="translate(840.815 346.394)" fill="#4d4d4d"/>
+        <circle id="Ellipse_17" data-name="Ellipse 17" cx="19.007" cy="19.007" r="19.007" transform="translate(825.61 299.395)" fill="#4d4d4d"/>
+        <circle id="Ellipse_18" data-name="Ellipse 18" cx="7.603" cy="7.603" r="7.603" transform="translate(876.064 323.586)" fill="#fff"/>
+      </g>
+      <path id="Path_38" data-name="Path 38" d="M619.958,486.806l-71.015,1.8a16.571,16.571,0,0,1-16.787-19.157l14.955-94.432a16.571,16.571,0,0,1,22.32-12.872L636.1,387.809a16.57,16.57,0,0,1,10.413,18.056l-10.6,66.967A16.571,16.571,0,0,1,619.958,486.806Z" fill="#4d4d4d"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="87" height="54" transform="translate(775.759 427.528) rotate(8.999)" fill="#4d4d4d"/>
+    </g>
+  </g>
+</svg>
