@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import NominationCard from './components/NominationCard';
-import Banner from './assets/banner.svg';
-import ShoppiesPopcornNoBG from './assets/shoppies-popcorn-nobg.svg';
-import ShoppiesTrophy from './assets/shoppies-trophy.svg';
-import ShoppiesPopcorn from './assets/shoppies-popcorn.svg';
-import Title from './assets/title.svg';
-import SearchIcon from './assets/search-icon.svg';
+import Banner from './assets/images/banner.svg';
+import ShoppiesPopcornNoBG from './assets/images/shoppies-popcorn-nobg.svg';
+import ShoppiesTrophy from './assets/images/shoppies-trophy.svg';
+import ShoppiesPopcorn from './assets/images/shoppies-popcorn.svg';
+import Title from './assets/images/title.svg';
+import SearchIcon from './assets/images/search-icon.svg';
 import './App.css';
 
 function App() {
