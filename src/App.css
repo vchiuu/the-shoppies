@@ -1,7 +1,7 @@
 .app {
   display: flex;
   text-align: center;
-  background-color: #008060;
+  background-color: #5C0202;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -9,6 +9,7 @@
   padding: 0;
   height: 100vh;
   width: 100vw;
+  background-image: radial-gradient(#B80404 20%, #5C0202 80%)
 }
 
 .banner {
@@ -16,7 +17,7 @@
 }
 
 .button {
-  background-color: #004C3F;
+  background-color: #950303;
   color: white;
 }
 
@@ -53,23 +54,26 @@
 
 .film-projector {
   position: absolute;
-  right: 5%;
-  bottom: 0;
-  width: 20%;
+  right: 8%;
+  bottom: 1%;
+  width: 15%;
 }
 
 .form {
   align-items: center;
-  background-color: #C1F0D0;
+  background-color: #EBD5AC;
   border-radius: 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: 'ShopifySans-Regular';
-  height: 90%;
+  height: 85%;
   margin: auto;
   padding: 10;
   width: 65%;
+  border-style: solid;
+  border-color: #B80404;
+  border-width: 30px;
 }
 
 .inner-modal-container{
@@ -186,7 +190,7 @@
 }
 
 .search-button {
-  background-color: #004C3F;
+  background-color: #950303;
   border-radius: 15px;
   padding: 1em;
   width: 25px;
@@ -206,7 +210,7 @@
 }
 
 .submit-button {
-  background-color: #004C3F;
+  background-color: #950303;
   border-radius: 15px;
   color: white;
   width: 40%;
@@ -214,7 +218,7 @@
 }
 
 .submit-button:hover {
-  background-color: rgb(0, 59, 50);
+  background-color: rgb(59, 0, 0);
 }
 
 .submit-text {

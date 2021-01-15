@@ -2,15 +2,15 @@
   <g id="Group_47" data-name="Group 47" transform="translate(-1080 -455)">
     <g id="Group_46" data-name="Group 46" transform="translate(531 84)">
       <g id="Group_43" data-name="Group 43" transform="translate(549 376.073)">
-        <path id="Path_79" data-name="Path 79" d="M472,610l16.6,22.471L472,654.942h66V610Z" transform="translate(-472 -610)" fill="#ffd16b"/>
-        <path id="Path_80" data-name="Path 80" d="M472,610l16.6,22.471L472,654.942h66V610Z" transform="translate(-472 -610)" opacity="0.1"/>
+        <path id="Path_79" data-name="Path 79" d="M472,610l16.6,22.471L472,654.942h66V610Z" transform="translate(-472 -610)" fill="#950303"/>
+        <path id="Path_80" data-name="Path 80" d="M472,610l16.6,22.471L472,654.942h66V610Z" transform="translate(-472 -610)" fill="#950303" opacity="0.1"/>
       </g>
       <g id="Group_44" data-name="Group 44" transform="translate(1200.807 378.572)">
-        <path id="Path_81" data-name="Path 81" d="M1027,613l-16.6,22.471,16.6,22.471H961V613Z" transform="translate(-961 -613)" fill="#ffd16b"/>
-        <path id="Path_82" data-name="Path 82" d="M1027,613l-16.6,22.471,16.6,22.471H961V613Z" transform="translate(-961 -613)" opacity="0.1"/>
+        <path id="Path_81" data-name="Path 81" d="M1027,613l-16.6,22.471,16.6,22.471H961V613Z" transform="translate(-961 -613)" fill="#950303"/>
+        <path id="Path_82" data-name="Path 82" d="M1027,613l-16.6,22.471,16.6,22.471H961V613Z" transform="translate(-961 -613)" fill="#950303" opacity="0.1"/>
       </g>
-      <rect id="Rectangle_28" data-name="Rectangle 28" width="652" height="46" transform="translate(588 371)" fill="#ffd16b"/>
-      <text id="You_have_selected_5_films_for_nomination_" data-name="You have selected 5 films for nomination!" transform="translate(717 401)" fill="#db9200" font-size="21" font-family="ShopifySansWeb-Medium, Shopify Sans Web" font-weight="500"><tspan x="0" y="0">You have selected 5 films for nomination!</tspan></text>
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="652" height="46" transform="translate(588 371)" fill="#b70404"/>
+      <text id="You_have_selected_5_films_for_nomination_" data-name="You have selected 5 films for nomination!" transform="translate(717 401)" fill="#fff" font-size="21" font-family="ShopifySansWeb-Medium, Shopify Sans Web" font-weight="500"><tspan x="0" y="0">You have selected 5 films for nomination!</tspan></text>
     </g>
   </g>
 </svg>

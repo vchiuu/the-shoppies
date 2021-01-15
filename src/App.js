@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
 import NominationCard from './components/NominationCard';
 import Banner from './assets/banner.svg';
-import FilmProjector from './assets/film-projector.svg';
+import ShoppiesPopcornNoBG from './assets/shoppies-popcorn-nobg.svg';
 import ShoppiesTrophy from './assets/shoppies-trophy.svg';
 import ShoppiesPopcorn from './assets/shoppies-popcorn.svg';
 import Title from './assets/title.svg';
@@ -10,7 +10,7 @@ import SearchIcon from './assets/search-icon.svg';
 import './App.css';
 
 function App() {
-  const NOMINATIONS = [{title: 'Soul'},{title: 'Tenet'},{title: 'Alone'},{title: 'The Phenomenon'}, {title: 'The Empty Man'}]
+  const NOMINATIONS = [{title: 'Soul'},{title: 'Tenet'},{title: 'Alone'},{title: 'The Phenomenon'},{title: 'Hello'}]
 
   const [email, setEmail] = useState('');
   const [input, setInput] = useState('');
@@ -130,7 +130,7 @@ function App() {
         </div>
       </div>
       <img className="trophy" src={ShoppiesTrophy} alt="Shoppies Trophy" />
-      <img className="film-projector" src={FilmProjector} alt="projector" />
+      <img className="film-projector" src={ShoppiesPopcornNoBG} alt="projector" />
       <div className="test">
       <Modal
         isOpen={isModalVisible}
