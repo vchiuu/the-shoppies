@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { useEffect } from 'react';
+import NominationIcon from '../assets/images/nomination-icon.svg'
 
 const SearchResults = ({ nominationMap, onAdd, onClose, onRemove, results }) => {
   const renderResultEntry = entry => {
@@ -7,7 +8,12 @@ const SearchResults = ({ nominationMap, onAdd, onClose, onRemove, results }) => 
     const onClick = isSelected ? onRemove : onAdd;
     return (
       <button className="search-result-entry" key={entry.imdbID} onClick={() => onClick(entry)}>
-        <span>{entry.Title} ({entry.Year})</span><span>{isSelected ? 'REMOVE' : 'ADD'}</span>
+        <span>{entry.Title} ({entry.Year})</span>
+        <img
+          alt={isSelected ? 'Remove' : 'Add'}
+          className={isSelected ? 'remove-nomination-button' : 'add-nomination-button'}
+          src={NominationIcon}
+        />
       </button>
     );
   };

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+
 import NominationCard from './NominationCard';
 
 import '../App.css';
@@ -10,7 +11,7 @@ const NominationList = ({ list, removeItem }) => {
       {...nomination}
       key={nomination.imdbID}
       isSelected
-      onRemove={removeItem}
+      onRemove={() => removeItem(nomination)}
     />
   );
 

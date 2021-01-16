@@ -146,31 +146,47 @@ body,
   padding: 10px 25px;
 }
 
-.nomination-card-selected {
-  border-style: solid;
-  border-color: #F6D9A2;
+.nomination-card {
   border-radius: 15px;
   min-width: 130px;
   height: 200px;
   margin: 10px 10px 10px 0px;
   display: block;
-  background-color: #FFEAC2;
-  background-image: url("./assets/images/film-nominated.svg");
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+}
+
+.nomination-card-selected {
+  border-style: solid;
+  border-color: #F6D9A2;
+  background-color: #FFEAC2;
 }
 
 .nomination-card-unselected {
   border-style: dashed;
   border-color: #CBCBCB;
-  border-radius: 15px;
-  min-width: 130px;
-  height: 200px;
-  margin: 10px 10px 10px 0px;
-  display: block;
-  background-image: url("./assets/images/add-icon.svg");
+}
+
+.remove-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform-origin: center;
+  transform: translate(50%, -50%) rotate(45deg);
+  background-size: 50% 50%;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-position: center;
+  border: 0;
+  background-color: #B80404;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.remove-button:hover {
+  cursor: pointer;
 }
 
 .search-bar {
@@ -232,6 +248,7 @@ body,
   position: absolute;
   right: 0;
   top: 40px;
+  z-index: 1;
 }
 
 .search-result-entry {
@@ -362,4 +379,16 @@ body,
   .nomination-list {
     justify-content: center;
   }
+}
+
+.add-nomination-button {
+  height: 12px;
+  width: 12px;
+}
+
+.remove-nomination-button {
+  height: 14px;
+  width: 14px;
+  transform: rotate(45deg);
+  transform-origin: center;
 }
