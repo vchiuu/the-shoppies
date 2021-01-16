@@ -22,8 +22,21 @@ body,
   }
 }
 
+
+.add-nomination-button {
+  height: 12px;
+  width: 12px;
+}
+
 .banner {
   width: 60%;
+}
+
+.bottom-right-decoration {
+  position: absolute;
+  right: 0;
+  bottom: -5%;
+  transform: translateX(50%);
 }
 
 .button {
@@ -187,6 +200,16 @@ body,
 
 .remove-button:hover {
   cursor: pointer;
+  height: 26px;
+  width: 26px;
+  background-color: #8f0000;
+}
+
+.remove-nomination-button {
+  height: 14px;
+  width: 14px;
+  transform: rotate(45deg);
+  transform-origin: center;
 }
 
 .search-bar {
@@ -287,37 +310,27 @@ body,
   width: 45%;
 }
 
-@media only screen and (max-width: 700px) {
-  .title {
-    width: 80%;
-  }
-}
-
 .trophy {
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translate(-50%, -50%);
-  width: 14%;
+  transform: translate(-60%, -50%);
+  width: 16%;
 }
 
-.film-projector {
-  position: absolute;
-  right: 0;
-  bottom: -5%;
-  transform: translateX(50%);
-  width: 14%;
-}
 
 @media only screen and (max-width: 425px) {
   .banner {
     width: 100%;
   }
+  .bottom-right-decoration {
+    width: 35%;
+  }
   .email {
     width: 90%;
   }
-  .trophy {
-    top: 30%;
+  .form {
+    width: 90%; 
   }
   .search-bar {
     width: 100%;
@@ -328,17 +341,34 @@ body,
   .nomination-list {
     justify-content: flex-start;
   }
+  .title {
+    width: 100%;
+  }
+  .trophy {
+    top: 60%;
+    width: 30%;
+  }
 }
 
 @media only screen and (min-width: 425px) {
   .banner {
     width: 80%;
   }
+  .bottom-right-decoration {
+    width:35%;
+  }
+  .title {
+    width: 80%;
+  }
   .trophy {
-    top: 30%;
+    top: 60%;
+    width: 30%;
   }
   .email {
     width: 75%;
+  }
+  .form {
+    width: 85%; 
   }
   .search-container {
     width: 75%;
@@ -346,29 +376,55 @@ body,
   .nomination-list {
     justify-content: flex-start;
   }
+  .trophy {
+    top: 60%;
+    width: 25%;
+  }
 }
 
 @media only screen and (min-width: 700px) {
+  .bottom-right-decoration {
+    width:26%;
+  }
+  .form {
+    width: 80%; 
+  }
   .trophy {
-    top: 50%;
+    top: 55%;
+    width: 23%;
   }
   .nomination-list {
     justify-content: flex-start;
   }
 }
 
+
+
 @media only screen and (min-width: 900px) {
+  .bottom-right-decoration {
+    width:25%;
+  }
   .banner {
     width: 80%;
   }
   .email {
     width: 60%;
   }
+  .form {
+    width: 65%; 
+  }
   .search-container {
     width: 60%;
   }
   .nomination-list {
     justify-content: flex-start;
+  }
+  .title {
+    width: 60%;
+  }
+  .trophy {
+    top: 50%;
+    width: 18%;
   }
 }
 
@@ -376,19 +432,20 @@ body,
   .banner {
     width: 60%;
   }
+  .bottom-right-decoration {
+    width:20%;
+  }
   .nomination-list {
     justify-content: center;
   }
+  .title {
+    width: 50%;
+  }
 }
 
-.add-nomination-button {
-  height: 12px;
-  width: 12px;
-}
+@media only screen and (min-width: 2560px) {
+  .title {
+    width: 40%;
+  }
 
-.remove-nomination-button {
-  height: 14px;
-  width: 14px;
-  transform: rotate(45deg);
-  transform-origin: center;
 }

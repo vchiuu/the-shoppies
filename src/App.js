@@ -105,7 +105,7 @@ function App() {
           Submit
         </button>
         <img className="trophy" src={ShoppiesTrophy} alt="Shoppies Trophy" />
-        <img className="film-projector" src={ShoppiesPopcornNoBG} alt="projector" />
+        <img className="bottom-right-decoration" src={ShoppiesPopcornNoBG} alt="popcorn" />
       </div>
       <SuccessConfirmModal isVisible={isModalVisible} onClose={closeModal} />
     </>
