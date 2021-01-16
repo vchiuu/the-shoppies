@@ -1,0 +1,22 @@
+name: Deploy to Firebase Hosting
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci
+      - run: npm run build
+        env:
+          REACT_APP_OMDB_API_KEY: '${{ secrets.OMDB_API_KEY }}'
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_THE_SHOPPIES_94EA8 }}'
+          channelId: live
+          projectId: the-shoppies-94ea8
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
