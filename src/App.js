@@ -11,13 +11,25 @@ import './App.css';
 import SuccessConfirmModal from './components/SuccessConfirmModal';
 
 function App() {
+  const getNominationsFromStorage = () => {
+    const storedNominations = localStorage.getItem('nominations');
+    if (!storedNominations) {
+      return new Map();
+    }
+    const list = JSON.parse(storedNominations);
+    if (!Array.isArray(list)) {
+      return new Map();
+    }
+    return list.reduce((map, item) => map.set(item.imdbID, item), new Map());
+  };
+
   const [email, setEmail] = useState('');
   const [query, setQuery] = useState('');
   const [emailValidation, setEmailValidation] = useState(null);
   const [formValidation, setFormValidate] = useState(null);
   const [isModalVisible, setModalVisibility] = useState(false);
   const [isSubscribed, setSubscribed] = useState(false);
-  const [nominationMap, setNominationMap] = useState(new Map());
+  const [nominationMap, setNominationMap] = useState(getNominationsFromStorage());
 
   const closeModal = () => {
     setModalVisibility(false);
@@ -52,11 +64,15 @@ function App() {
     }
   };
 
+  const stringifyMap = map => JSON.stringify(Array.from(map.values()));
+
   const addNomination = nomination => {
     if (!nominationMap.has(nomination.imdbID)) {
       setNominationMap(prevState => {
         const nextState = new Map(prevState);
-        return nextState.set(nomination.imdbID, nomination);
+        nextState.set(nomination.imdbID, nomination);
+        localStorage.setItem('nominations', stringifyMap(nextState));
+        return nextState;
       });
     }
   };
@@ -66,6 +82,7 @@ function App() {
       setNominationMap(prevState => {
         const nextState = new Map(prevState);
         nextState.delete(nomination.imdbID, nomination)
+        localStorage.setItem('nominations', stringifyMap(nextState));
         return nextState;
       });
     }
