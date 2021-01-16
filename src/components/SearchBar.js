@@ -25,7 +25,7 @@ const SearchBar = ({ nominationMap, onChange, onRemove, onSelect, value, ...prop
     }
     try {
       const response = await axios({
-        baseURL: 'http://www.omdbapi.com/',
+        baseURL: 'https://www.omdbapi.com/',
         method: 'get',
         params: {
           apikey: process.env.REACT_APP_OMDB_API_KEY,
